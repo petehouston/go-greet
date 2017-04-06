@@ -4,10 +4,12 @@ PACKAGE        = github.com/petehouston/$(NAME)
 NUMCPUS        = $(shell cat /proc/cpuinfo | grep '^processor\s*:' | wc -l)
 
 .PHONE: all
-all: test build
+all: test
 
-.PHONY: build
-build: $(NAME)
+.PHONY: install
+install:
+	echo GOPATH=`pwd`
+	go install
 
 .PHONY: test
 test:
