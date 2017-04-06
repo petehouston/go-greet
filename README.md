@@ -8,6 +8,13 @@ A demo package for Go.
 $ go get github.com/petehouston/go-greet
 ```
 
+```go
+import "github.com/petehouston/go-greet"
+
+greet.Hello("Pete")
+greet.Bye("Pete"
+```
+
 ## Testing
 
 ```
