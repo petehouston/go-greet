@@ -12,7 +12,7 @@ $ go get github.com/petehouston/go-greet
 import "github.com/petehouston/go-greet"
 
 greet.Hello("Pete")
-greet.Bye("Pete"
+greet.Bye("Pete")
 ```
 
 ## Testing
