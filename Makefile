@@ -3,6 +3,9 @@ NAME           = go-greet
 PACKAGE        = github.com/petehouston/$(NAME)
 NUMCPUS        = $(shell cat /proc/cpuinfo | grep '^processor\s*:' | wc -l)
 
+.PHONE: all
+all: test build
+
 .PHONY: build
 build: $(NAME)
 
