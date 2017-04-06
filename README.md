@@ -1,5 +1,7 @@
 # go-greet
 
+[![Build Status](https://travis-ci.org/petehouston/go-greet.svg?branch=master)](https://travis-ci.org/petehouston/go-greet)
+
 A demo package for Go.
 
 ## Usage
