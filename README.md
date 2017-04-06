@@ -11,8 +11,8 @@ $ go get github.com/petehouston/go-greet
 ```go
 import "github.com/petehouston/go-greet"
 
-greet.Hello("Pete")
-greet.Bye("Pete")
+greet.Hello("Pete") // "Hello Pete"
+greet.Bye("Pete")   // "Bye Pete"
 ```
 
 ## Testing
